@@ -102,6 +102,9 @@ if uploaded_file is not None:
                             existing_fwd_seq = oligo_dict[fragment_name][0]
                             oligo_dict[fragment_name] = (existing_fwd_seq, sequence)
 
+                if oligo_dict.get("") == ('',''):
+                    del oligo_dict[""]
+
                 fragments = list(oligo_dict.keys())
                 seqs = list(oligo_dict.values())
                 col_names = ['annealing_temp', 'tm_fwd', 'tm_rev', 'tm_diff', 'frag_name', 'fwd_seq', 'rev_seq']
