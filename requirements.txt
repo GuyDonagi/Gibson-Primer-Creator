@@ -1,0 +1,5 @@
+streamlit
+biopython
+seleniumbase
+pandas
+openpyxl
