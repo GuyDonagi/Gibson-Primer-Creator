@@ -18,10 +18,6 @@ FEATURES             Location/Qualifiers
                      /label="DOWN (Native)"
                      /ApEinfo_revcolor="#c7b0e3"
                      /ApEinfo_fwdcolor="#c7b0e3"
-     misc_feature    complement(3920..3933)
-                     /label=338
-                     /ApEinfo_revcolor="#9eafd2"
-                     /ApEinfo_fwdcolor="#9eafd2"
 ORIGIN
         1 ctgtccctcc tgttcagcta ctgacggggt ggtgcgtaac ggcaaaagca ccgccggaca
        61 tcagcgctag cggagtgtat actggcttac tatgttggca ctgatgaggg tgtcagtgaa
