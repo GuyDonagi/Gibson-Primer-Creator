@@ -23,4 +23,4 @@ Guy Donagi
 
 M.Sc. Student in Plant Sciences and Genetics
 
-Let's connect on [LinkedIn](www.linkedin.com/in/guy-donagi-47691522a)
+Let's connect on [LinkedIn](https://www.linkedin.com/in/guy-donagi-47691522a)
