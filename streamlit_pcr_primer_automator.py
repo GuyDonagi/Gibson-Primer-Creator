@@ -7,6 +7,12 @@ import pandas as pd
 from openpyxl import load_workbook
 import time
 
+# Block for Streamlit cloud
+import os
+from seleniumbase.core import browser_launcher
+os.makedirs("/tmp/seleniumbase_drivers", exist_ok=True)
+browser_launcher.override_driver_dir("/tmp/seleniumbase_drivers")
+
 st.set_page_config(page_title="Gibson Automator", page_icon="🧬", layout="centered")
 
 st.markdown(
