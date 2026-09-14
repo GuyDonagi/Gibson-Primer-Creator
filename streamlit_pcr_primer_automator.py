@@ -72,7 +72,7 @@ if uploaded_file is not None:
         with st.status("Automating Primer Design...\nDo not close the browser!", expanded=True) as status:
             
             # --- BROWSER AUTOMATION BLOCK ---
-            with SB(uc=True, headless=True) as sb:
+            with SB(uc=True) as sb: #, headless=True
                 sb.driver.get("https://nebuilder.neb.com/#!/")
                 st.write("\nGoing to", sb.driver.title,"...\n")
 
